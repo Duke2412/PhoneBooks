@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 
 public class PhoneBookManager {
     Scanner scanner=new Scanner(System.in);
-    private static final String PATH ="src/PhoneList.txt";
+    private static final String PATH ="src/PhoneList.csv";
     private List<PhoneList> phoneList1;
     private ReadAndWriteFile<PhoneList> readAndWriteFile;
     
